@@ -12,9 +12,9 @@ Listens to your microphone, matches speech against your script, and advances the
 
 | Platform | Installer |
 |----------|-----------|
-| macOS (Apple Silicon) | [VoxiPrompter_0.8.10_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.10_aarch64.dmg) |
-| Windows (x64) | [VoxiPrompter_0.8.10_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.10_x64-setup.exe) |
-| Linux (x64) | [voxiprompter_0.8.10_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.10_amd64.deb) · [AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.10_amd64.AppImage) |
+| macOS (Apple Silicon) | [VoxiPrompter_0.8.11_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.11_aarch64.dmg) |
+| Windows (x64) | [VoxiPrompter_0.8.11_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.11_x64-setup.exe) |
+| Linux (x64) | [voxiprompter_0.8.11_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.11_amd64.deb) · [AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.11_amd64.AppImage) |
 
 Or see the [latest release](https://github.com/voxiteam/voxiprompter/releases/latest) for all files.
 
@@ -31,10 +31,10 @@ Or see the [latest release](https://github.com/voxiteam/voxiprompter/releases/la
 - **100% offline** — voice processed on-device, no cloud, no account required
 - **8 languages** — English, Indonesian, Chinese, Japanese, Russian, Arabic, Thai, Vietnamese
 - **OBS integration** — Browser Source overlays (teleprompter + live captions), scene automation, custom dock
-- **Streaming ready** — works with OBS Studio, Streamlabs, XSplit, vMix, and any app with Browser Source
+- **Script markers** — `[SCENE: name]`, `[SHOW: source]`, `[HIDE: source]` trigger OBS commands hands-free
+- **Streaming ready** — works with OBS Studio, Streamlabs, XSplit, vMix, Twitch Studio, Ecamm Live
 - **Mobile remote** — control from your phone over Wi-Fi (QR code)
 - **Speaking Pace** — Fast / Normal / Slow presets for your speaking style
-- **Script markers** — `[SCENE: name]`, `[SHOW: source]`, `[HIDE: source]` trigger OBS commands automatically
 - **Click-to-jump** — click any word in the monitor to jump the cursor there
 - **Cursor memory** — position preserved between sessions
 - **Auto-updater** — built-in update check and install
