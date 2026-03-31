@@ -12,9 +12,9 @@ Listens to your microphone, matches speech against your script, and advances the
 
 | Platform | Installer |
 |----------|-----------|
-| macOS (Apple Silicon) | [VoxiPrompter_0.8.12_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.12_aarch64.dmg) |
-| Windows (x64) | [VoxiPrompter_0.8.12_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.12_x64-setup.exe) |
-| Linux (x64) | [voxiprompter_0.8.12_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.12_amd64.deb) · [AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.12_amd64.AppImage) |
+| macOS (Apple Silicon) | [VoxiPrompter_0.8.13_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.13_aarch64.dmg) |
+| Windows (x64) | [VoxiPrompter_0.8.13_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.13_x64-setup.exe) |
+| Linux (x64) | [voxiprompter_0.8.13_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.13_amd64.deb) · [AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.13_amd64.AppImage) |
 
 Or see the [latest release](https://github.com/voxiteam/voxiprompter/releases/latest) for all files.
 
