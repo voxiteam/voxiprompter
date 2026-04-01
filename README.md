@@ -10,14 +10,14 @@ VoxiPrompter listens to your microphone, matches your voice against your script,
 
 ---
 
-## Download v0.8.14
+## Download v0.8.16
 
 | Platform | Installer |
 |---|---|
-| macOS (Apple Silicon) | [VoxiPrompter_0.8.14_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.14_aarch64.dmg) |
-| Windows (x64) | [VoxiPrompter_0.8.14_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.14_x64-setup.exe) |
-| Linux (x64 .deb) | [voxiprompter_0.8.14_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.14_amd64.deb) |
-| Linux (x64 AppImage) | [voxiprompter_0.8.14_amd64.AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.14_amd64.AppImage) |
+| macOS (Apple Silicon) | [VoxiPrompter_0.8.16_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.16_aarch64.dmg) |
+| Windows (x64) | [VoxiPrompter_0.8.16_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.16_x64-setup.exe) |
+| Linux (x64 .deb) | [voxiprompter_0.8.16_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.16_amd64.deb) |
+| Linux (x64 AppImage) | [voxiprompter_0.8.16_amd64.AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.16_amd64.AppImage) |
 
 All installers are also available on the [latest release page](https://github.com/voxiteam/voxiprompter/releases/latest).
 
@@ -46,8 +46,15 @@ The AI model downloads automatically the first time you start listening. After t
 - Speaking Pace presets (Fast / Normal / Slow) adapt to your delivery style
 - Works completely offline after the one-time model download
 
+**Auto-Scroll Mode**
+- Constant-speed scrolling without using a microphone
+- Adjustable speed from 1x (slow crawl) to 10x (speed read)
+- Start, pause, and resume with the Space key or Start button
+- Perfect for pre-recorded content, rehearsals, or music lyrics
+
 **Live Production & OBS Integration**
 - Browser Source overlays for teleprompter display and live captions in OBS Studio
+- OBS dock panel for controlling VoxiPrompter from within OBS
 - Script markers trigger OBS commands hands-free:
   - `[SCENE: name]` -- switch scenes
   - `[SHOW: source]` -- show a source
@@ -66,7 +73,7 @@ The AI model downloads automatically the first time you start listening. After t
 
 | Key | Action |
 |---|---|
-| Space | Start / Stop listening |
+| Space | Start / Stop listening or auto-scroll |
 | Home | Reset cursor to beginning |
 | Left Arrow | Back 10 words |
 | Right Arrow | Forward 10 words |
@@ -89,11 +96,9 @@ Single-machine license. Transferable between machines -- deactivate on one, acti
 ---
 
 ## Support
-
 - **Website & documentation:** [voxiprompter.com](https://voxiprompter.com)
-- **Email support:** [support@voxiteam.com](mailto:support@voxiteam.com)
+- **Contact support:** [voxiprompter.com/support](https://voxiprompter.com/support)
 - **Bug reports:** [github.com/voxiteam/voxiprompter/issues](https://github.com/voxiteam/voxiprompter/issues)
-
 ---
 
 (c) 2026 VoxiPrompter. All rights reserved.
