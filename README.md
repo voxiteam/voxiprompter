@@ -1,84 +1,99 @@
 # VoxiPrompter
 
-The professional, speech-guided teleprompter that runs entirely on your device — no cloud, no subscription.
+**The speech-guided teleprompter that runs entirely on your device.**
 
-Listens to your microphone, matches speech against your script, and advances the teleprompter in real time. 100% offline after the one-time model download.
+No cloud services. No subscriptions. No accounts. Just you and your script.
 
-**[voxiprompter.com](https://voxiprompter.com)** · macOS · Windows · Linux
+VoxiPrompter listens to your microphone, matches your voice against your script, and advances the teleprompter automatically -- all in real time. The on-device AI speech recognition model downloads once (~250 MB) and works 100% offline after that.
+
+**[voxiprompter.com](https://voxiprompter.com)** -- macOS, Windows, Linux
 
 ---
 
-## Download
+## Download v0.8.14
 
 | Platform | Installer |
-|----------|-----------|
-| macOS (Apple Silicon) | [VoxiPrompter_0.8.13_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.13_aarch64.dmg) |
-| Windows (x64) | [VoxiPrompter_0.8.13_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.13_x64-setup.exe) |
-| Linux (x64) | [voxiprompter_0.8.13_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.13_amd64.deb) · [AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.13_amd64.AppImage) |
+|---|---|
+| macOS (Apple Silicon) | [VoxiPrompter_0.8.14_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.14_aarch64.dmg) |
+| Windows (x64) | [VoxiPrompter_0.8.14_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.14_x64-setup.exe) |
+| Linux (x64 .deb) | [voxiprompter_0.8.14_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.14_amd64.deb) |
+| Linux (x64 AppImage) | [voxiprompter_0.8.14_amd64.AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.14_amd64.AppImage) |
 
-Or see the [latest release](https://github.com/voxiteam/voxiprompter/releases/latest) for all files.
+All installers are also available on the [latest release page](https://github.com/voxiteam/voxiprompter/releases/latest).
 
-> **macOS note:** The app is currently unsigned. If macOS says it's "damaged", run once in Terminal:
+> **macOS note:** VoxiPrompter is not yet code-signed. If macOS reports the app is "damaged," open Terminal and run:
 > ```
 > xattr -cr /Applications/VoxiPrompter.app
 > ```
 
 ---
 
-## Features
+## How It Works
 
-- **Voice-guided scrolling** — AI matches your speech to the script and auto-advances in real time
-- **100% offline** — voice processed on-device, no cloud, no account required
-- **8 languages** — English, Indonesian, Chinese, Japanese, Russian, Arabic, Thai, Vietnamese
-- **OBS integration** — Browser Source overlays (teleprompter + live captions), scene automation, custom dock
-- **Script markers** — `[SCENE: name]`, `[SHOW: source]`, `[HIDE: source]` trigger OBS commands hands-free
-- **Streaming ready** — works with OBS Studio, Streamlabs, XSplit, vMix, Twitch Studio, Ecamm Live
-- **Mobile remote** — control from your phone over Wi-Fi (QR code)
-- **Speaking Pace** — Fast / Normal / Slow presets for your speaking style
-- **Click-to-jump** — click any word in the monitor to jump the cursor there
-- **Cursor memory** — position preserved between sessions
-- **Auto-updater** — built-in update check and install
+1. **Paste your script** into VoxiPrompter
+2. **Press Space** to start listening
+3. **Speak naturally** -- the teleprompter follows your voice
 
-## Pricing
-
-| Tier | Price | Scripts |
-|------|-------|---------|
-| Free | $0 | Up to 1,500 characters |
-| Pro | $99 one-time ($59 at launch with **LAUNCH40**) | Unlimited |
-
-Single-machine license. Transferable — deactivate on one machine, activate on another. Fully offline after activation.
-
-**[Get Pro →](https://voxiprompter.lemonsqueezy.com/buy/52430574-955b-486e-9af5-d96d800dd6df?discount=LAUNCH40)**
+The AI model downloads automatically the first time you start listening. After that, everything works offline with zero latency.
 
 ---
 
-## How It Works
+## Features
 
-1. Paste or load your script
-2. Press **Space** to start
-3. Speak naturally — the teleprompter follows your voice
+**On-Device Speech Recognition**
+- AI-powered voice matching scrolls the teleprompter in real time
+- 8 languages: English, Indonesian, Chinese, Japanese, Russian, Arabic, Thai, Vietnamese
+- Speaking Pace presets (Fast / Normal / Slow) adapt to your delivery style
+- Works completely offline after the one-time model download
 
-No setup. No cloud API key. The AI model (~250 MB) downloads automatically the first time you press Start.
+**Live Production & OBS Integration**
+- Browser Source overlays for teleprompter display and live captions in OBS Studio
+- Script markers trigger OBS commands hands-free:
+  - `[SCENE: name]` -- switch scenes
+  - `[SHOW: source]` -- show a source
+  - `[HIDE: source]` -- hide a source
+- Compatible with OBS Studio, Streamlabs, XSplit, vMix, Twitch Studio, Ecamm Live
+
+**Controls & Navigation**
+- Click any word in the live monitor to jump the cursor there
+- Mobile remote control from your phone over Wi-Fi (scan the QR code)
+- Cursor position preserved between sessions
+- Built-in auto-updater keeps you on the latest version
 
 ---
 
 ## Keyboard Shortcuts
 
 | Key | Action |
-|-----|--------|
-| Space | Start / Stop |
-| Home | Reset position |
-| ← | Back 10 words |
-| → | Forward 10 words |
+|---|---|
+| Space | Start / Stop listening |
+| Home | Reset cursor to beginning |
+| Left Arrow | Back 10 words |
+| Right Arrow | Forward 10 words |
+
+---
+
+## Pricing
+
+| | Free | Pro |
+|---|---|---|
+| Price | **$0** | **$99** one-time |
+| Launch price | -- | **$59** with code **LAUNCH40** |
+| Script length | Up to 1,500 characters | Unlimited |
+| All features | Yes | Yes |
+
+Single-machine license. Transferable between machines -- deactivate on one, activate on another. Fully offline after activation.
+
+**[Get Pro for $59 (launch price)](https://store.voxiprompter.com/buy/52430574-955b-486e-9af5-d96d800dd6df?discount=LAUNCH40)**
 
 ---
 
 ## Support
 
-- **Website & docs:** [voxiprompter.com](https://voxiprompter.com)
-- **Support tickets:** [support.voxiprompter.com](https://support.voxiprompter.com/)
-- **Issues:** [github.com/voxiteam/voxiprompter/issues](https://github.com/voxiteam/voxiprompter/issues)
+- **Website & documentation:** [voxiprompter.com](https://voxiprompter.com)
+- **Email support:** [support@voxiteam.com](mailto:support@voxiteam.com)
+- **Bug reports:** [github.com/voxiteam/voxiprompter/issues](https://github.com/voxiteam/voxiprompter/issues)
 
 ---
 
-© 2026 VoxiPrompter. All rights reserved.
+(c) 2026 VoxiPrompter. All rights reserved.
