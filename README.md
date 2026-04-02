@@ -10,14 +10,14 @@ VoxiPrompter listens to your microphone, matches your voice against your script,
 
 ---
 
-## Download v0.8.16
+## Download v0.8.17
 
 | Platform | Installer |
 |---|---|
-| macOS (Apple Silicon) | [VoxiPrompter_0.8.16_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.16_aarch64.dmg) |
-| Windows (x64) | [VoxiPrompter_0.8.16_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.16_x64-setup.exe) |
-| Linux (x64 .deb) | [voxiprompter_0.8.16_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.16_amd64.deb) |
-| Linux (x64 AppImage) | [voxiprompter_0.8.16_amd64.AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.16_amd64.AppImage) |
+| macOS (Apple Silicon) | [VoxiPrompter_0.8.17_aarch64.dmg](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.17_aarch64.dmg) |
+| Windows (x64) | [VoxiPrompter_0.8.17_x64-setup.exe](https://github.com/voxiteam/voxiprompter/releases/latest/download/VoxiPrompter_0.8.17_x64-setup.exe) |
+| Linux (x64 .deb) | [voxiprompter_0.8.17_amd64.deb](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.17_amd64.deb) |
+| Linux (x64 AppImage) | [voxiprompter_0.8.17_amd64.AppImage](https://github.com/voxiteam/voxiprompter/releases/latest/download/voxiprompter_0.8.17_amd64.AppImage) |
 
 All installers are also available on the [latest release page](https://github.com/voxiteam/voxiprompter/releases/latest).
 
